@@ -1,0 +1,16 @@
+{
+  "name": "baucells-items",
+  "version": "1.0.0",
+  "description": "",
+  "main": "items-bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sergi Baucells Rodriguez <sergibaucells@iesebre.com> (https://github.com/SergiBaucells)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "vue-multiselect": "^2.0.6"
+  }
+}
