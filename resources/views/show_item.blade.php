@@ -5,6 +5,10 @@
     Item
 @endsection
 
+@section('contentheader_title')
+    Item
+@endsection
+
 
 @section('main-content')
     <form action="/items_php/{{ $item->id }}" method="POST">

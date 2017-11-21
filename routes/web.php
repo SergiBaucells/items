@@ -13,11 +13,11 @@ Route::group(['namespace' => "Baucells\Items\Http\Controllers", 'middleware' => 
           Route::delete('/items_php/{item}',      'ItemsController@destroy');
 
           // Items API
-          Route::get('/api/v1/items',              'APIItemsController@index');
-          Route::get('/api/v1/items/{item}',      'APIItemsController@show');
-          Route::post('/api/v1/items',             'APIItemsController@store');
-          Route::put('/api/v1/items/{item}',      'APIItemsController@update');
-          Route::delete('/api/v1/items/{item}',   'APIItemsController@destroy');
+//          Route::get('/api/v1/items',              'APIItemsController@index');
+//          Route::get('/api/v1/items/{item}',      'APIItemsController@show');
+//          Route::post('/api/v1/items',             'APIItemsController@store');
+//          Route::put('/api/v1/items/{item}',      'APIItemsController@update');
+//          Route::delete('/api/v1/items/{item}',   'APIItemsController@destroy');
 
           //Items vue
           Route::view('/items','items');

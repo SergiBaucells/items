@@ -4,6 +4,10 @@
     Items list
 @endsection
 
+@section('contentheader_title')
+    Items list
+@endsection
+
 @section('main-content')
 
     @if (Session::get('status') )

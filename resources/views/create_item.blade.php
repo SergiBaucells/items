@@ -4,6 +4,10 @@
     Create item
 @endsection
 
+@section('contentheader_title')
+    Create item
+@endsection
+
 @section('main-content')
 
     @if (Session::get('status') )
